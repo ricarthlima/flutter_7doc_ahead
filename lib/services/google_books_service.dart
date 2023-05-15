@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:math';
 
-import 'package:flutter_7doc_ahead/book.dart';
+import 'package:flutter_7doc_ahead/models/book.dart';
 import 'package:http/http.dart' as http;
 
 class GoogleBooksService {

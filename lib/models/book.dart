@@ -1,6 +1,6 @@
 class Book {
   String id;
-  String? title;
+  String title;
   String? subtitle;
   List<String> authors = [];
   String? publisher;
@@ -9,8 +9,6 @@ class Book {
   String? pageCount;
   List<String> categories = [];
   String? thumbnailLink;
-
-  Book(this.id);
 
   Book.fromMap(Map<String, dynamic> map)
       : id = map["id"],
